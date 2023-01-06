@@ -1,0 +1,3 @@
+---
+src: ./javascript/placeholder.md
+---
