@@ -27,11 +27,15 @@ Here is a better description from their website:
 
 Learn more about Slidev on [documentations](https://sli.dev/).
 
+### How is the project organised
+
+TO DO
+
 ### Local development 
 
 If you would like to contribute to these lecture slides, or just explore these slidev slides in more detail, here are some instructions on how to get the repo working locally.
 
-### Instructions
+#### Instructions
 
 To start the slide show:
 
