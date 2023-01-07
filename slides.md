@@ -1,4 +1,8 @@
 ---
+# Activate the default theme for all slides
+theme: default
+# show line numbers in code blocks
+lineNumbers: true
 src: ./pages/_cover.md
 ---
 
@@ -35,6 +39,6 @@ src: ./pages/vue.md
 ---
 
 ---
-hide: true
-src: ./pages/archive-slides.md
+hide: false
+src: ./pages/_archive-slides.md
 ---
