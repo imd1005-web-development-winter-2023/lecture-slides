@@ -1,8 +1,17 @@
-
 ---
-title: About the course
+layout: intro
+title: Unpack IMD1005
 level: 1
 ---
+
+# IMD1005
+Unpack the whole course
+
+---
+title: Overview 1
+level: 2
+---
+
 # Overview 1
 
 - About me
@@ -17,7 +26,7 @@ level: 2
 
 # Overview 2
 
-- About me
+- About me yhh
 - About the course
 - About the assignments
 - Ice breaker 
