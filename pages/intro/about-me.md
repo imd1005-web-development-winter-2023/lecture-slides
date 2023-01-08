@@ -175,11 +175,12 @@ Because there is more to life than just code
 * Coffee
 * Politics
 * Housing policy
+* Municipal zoning
 * Biking everywhere
 * The fake war on cars
-* Municipal zoning
-* Barbeque
 * Travel
+* Old fashions
+* Naps 
 
 
 
@@ -187,23 +188,222 @@ Because there is more to life than just code
 
 Slide Notes: 
 
+* It's important that you focus on work, on school, on coding, on learning, on keeping up with the pace of the industry
+* But, it's also really important that you take care of your mental health
+* Burn out in this industry is high
 
+Stress leave story: 
+* One story I have, when I was at ESDC, a colleague of mine was on the Multimedia Production team, doing videos and presentations for the Minister
+* The job involved filming events, cutting videos, and preparing Keynote presentations, it was tough keeping up with the Minister's schedule of events 
+* He was able to this for six months, but then he burnt out, and had to go on stress leave for three months 
+
+In conclusion: 
+* I'm not saying, that had he just drank more coffee, or talked about politics, he wouldn't have burned out, that's not the lesson here
+* The lesson is to try to take care of your mental health
+* Work really hard, but also do things that bring joy to your life 
+* And part of that, is being passionate about the things that you are really interested in, or love doing 
+* And also, if you like these things too, let's chat
 
 -->
 
 
 ---
-title: Career Success
+title: Work 1
 level: 2
+layout: image-right
+image: /images/slides/intro/about-me/clf2-02.png
 ---
 
-# Career Success
+# Work
+Step 1
+
+## Human Resources Development Canada (HRDC)
+
+Web Publisher
 
 <!-- 
 
 Slide Notes: 
 
+* I've been in world of web for over sixteen years now
+* When I was first hired by the Public Service, Government of Canada websites looked like this
+* I started as a Web Publisher for HRDC 
+* I'm redacting the year because I'm old 
 
+-->
+
+
+---
+title: Work 2
+level: 2
+layout: image-right
+image: /images/slides/intro/about-me/usability-01.png
+---
+
+# Work
+Step 2
+
+## Employment and Social Development Canada (ESDC)
+
+Team Lead
+
+<!-- 
+
+Slide Notes: 
+
+Why the change:
+* When a new political party comes to power, one thing they often do is make a bunch of changes to the way departments are setup
+* Agencies and departments like CRA, Statistics Canada, National Parks, Defence, are always safe, but the other smaller departments are usually moved around, or restructured or just changed in someway 
+* And so, in the early 2010's, there was a lot of changes happening, and Employment and Social Development Canada was "born" as a "new" department 
+
+Change brought opportunity: 
+* And so, I had really hustled hard at HRDC, and so when we were going through this transition period, my Manager at the time offered me a team lead spot, to manage a team of five developers, which I was happy to take on 
+
+Here's the thing about Team Lead spots: 
+* So, for me, as team lead, I didn't love
+  * the sheer amount of meetings that you had to attend
+  * the fact that you can't code all the time 
+  * the politicking 
+* Loved the extra pay, but didn't enjoy the team lead spot as much as I thought I would 
+
+-->
+
+
+---
+title: Work 3
+level: 2
+layout: image-right
+image: /images/slides/intro/about-me/canada-ca-01.png
+---
+
+# Work
+Step 3
+
+## Employment and Social Development Canada (ESDC)
+
+Web Specialist
+
+
+<!-- 
+
+Slide Notes: 
+
+* Move ahead a couple of years...
+
+TBS directive on a11y and Canada.ca conversion: 
+
+* The Government of Canada was really busy trying to improve their online experience for Canadiands
+* And so we started building tools like WET (Web Experience Toolkit), and really began iterating quickly on enhanced templates for Canada.ca
+* Remember the Government of Canada has hundreds of different websites, and tens of thousands of different pages to manage, it was a mess
+* And so every department was mandated that they had to move to this new Canada.ca template, and make their sites compliant for accessibility, for all of their pages 
+* ESDC alone was sitting on thousands and thousands of pages that needed to be upgraded 
+
+Canadians were demanding more out of departmental websites: 
+
+* The other thing that was happening wsa huge advances in web development
+* Experiences were getting more interactive, consumers were more demanding 
+* Web Developers needed to up their game 
+
+ESDC solution: 
+
+* And so, the department setup a number of special projects, and created a "Web Specialist" position to help get all this more advanced work done
+
+-->
+
+
+---
+title: Work 4
+level: 2
+layout: image-right
+image: /images/slides/intro/about-me/neil-stats-01.jpeg
+---
+
+# Work
+Step 4
+
+## Statistics Canada
+
+Front end Developer
+
+
+<!-- 
+
+Slide Notes: 
+
+* After the successful launch of ESDC's content on Canada.ca, I was bit by the JavaScript bug. 
+* I wanted to learn more about advanced front end web development
+* Sadly, the team that I was on, wasn't in the business of making web apps or doing heavy development tasks
+* And so, I started to take training on front end dev, and tried to get on small front end dev projects, to build up my resume 
+* And finally, after a year or so of beefing up my resume, I got a job offer to join Statistics Canada as a Front end dev working on the UX team
+
+-->
+
+
+---
+title: Work 5
+level: 2
+layout: image-right
+image: /images/slides/intro/about-me/neil-c4c.jpeg
+---
+
+# Work
+Step 5
+
+## Code for Canada Fellowship
+
+Front end Developer
+
+
+<!-- 
+
+Slide Notes: 
+
+* And then the pandemic happened!
+* During the pandemic, a colleague of mine suggested I apply for Code For Canada
+
+About Code for Canada: 
+
+* 
+
+
+C4C Fellowship Project: 
+
+* 
+* 
+
+After 
+
+* After the project I returned to Stats
+
+-->
+
+
+---
+title: Work 6
+level: 2
+layout: image-right
+image: /images/slides/intro/about-me/neil-stats-02.jpeg
+---
+
+# Work
+Step 6
+
+## Statistics Canada <span class="text-blue-400 text-xs">(current)</span>
+
+Full stack Developer
+
+
+<!-- 
+
+Slide Notes: 
+
+Which brings me all the way back to Stats: 
+
+* To do 
+
+Currently working on: 
+
+* To do 
 
 -->
 
@@ -213,28 +413,18 @@ title: Strengths
 level: 2
 ---
 
-# Strengths
+# What value can I bring 
+And how does this benefit you?
+
+* Accessibility (a11y) 
+* Knowledge of the Public Service
+* Building sites that people want to use
+* Have you heard of "Bridging"
+* ...
 
 <!-- 
 
 Slide Notes: 
-
-
-
--->
-
-
----
-title: How this benefits the situation
-level: 2
----
-
-# How this experience benefits our situation
-
-<!-- 
-
-Slide Notes: 
-
 
 
 -->
