@@ -383,6 +383,7 @@ And how does this benefit you?
 * This course is built on my 16 years developing in the Public Service 
 * I know how to leverage modern tools to build web sites and web apps that people actually want to use
 * You're going to get a solid look at how to do Accessibility (a11y) and side order of UX as well
+* Learn how to be always learning in this field
 
 <!-- 
 
