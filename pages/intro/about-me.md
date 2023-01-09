@@ -15,10 +15,12 @@ layout: image-right
 image: /images/slides/intro/about-me/neil-c4c.jpeg
 ---
 
-# Let's start with
-My name is...
+# Hi I'm Neil!
+Yes, that's me in my super cool C4C jacket
 
-* Neil Mispelaar
+* I'm a senior developer at Statistics Canada
+* I have a passion for biking everywhere and am trying to learn more about municipal housing policy
+* I love building web apps, my favourite framework is VueJS and that is the hill I will die on
 * You can call me "Neil"
 * "Professor" works as well
 
@@ -75,7 +77,7 @@ layout: image-left
 image: /images/slides/intro/about-me/kate.jpeg
 ---
 
-# The fam jam
+# Some really important people in my life
 The other things that I love talking about
 
 * Kate
@@ -107,45 +109,6 @@ Slide Notes:
 title: Buster
 level: 2
 layout: image
-image: /images/slides/intro/about-me/buster-03.jpeg
----
-
-# Buster
-The dog
-
-<!-- 
-
-Slide Notes: 
-
-* Here's a couple pictures of Buster 
-* This dog just melts my heart 
-
--->
-
----
-title: Buster
-level: 2
-layout: image
-image: /images/slides/intro/about-me/buster-02.jpeg
----
-
-# Buster
-The dog
-
-<!-- 
-
-Slide Notes: 
-
-* Here's a couple pictures of Buster 
-* This dog just melts my heart 
-
--->
-
-
----
-title: Buster
-level: 2
-layout: image
 image: /images/slides/intro/about-me/buster-01.jpeg
 ---
 
@@ -156,11 +119,10 @@ The dog
 
 Slide Notes: 
 
-* Here's a couple pictures of Buster 
+* Here's a picture of Buster 
 * This dog just melts my heart 
 
 -->
-
 
 ---
 title: Interests
@@ -214,7 +176,7 @@ layout: image-right
 image: /images/slides/intro/about-me/clf2-02.png
 ---
 
-# Work
+# My credentials
 Step 1
 
 ## Human Resources Development Canada (HRDC)
@@ -240,7 +202,7 @@ layout: image-right
 image: /images/slides/intro/about-me/usability-01.png
 ---
 
-# Work
+# My credentials
 Step 2
 
 ## Employment and Social Development Canada (ESDC)
@@ -276,7 +238,7 @@ layout: image-right
 image: /images/slides/intro/about-me/canada-ca-01.png
 ---
 
-# Work
+# My credentials
 Step 3
 
 ## Employment and Social Development Canada (ESDC)
@@ -318,7 +280,7 @@ layout: image-right
 image: /images/slides/intro/about-me/neil-stats-01.jpeg
 ---
 
-# Work
+# My credentials
 Step 4
 
 ## Statistics Canada
@@ -346,7 +308,7 @@ layout: image-right
 image: /images/slides/intro/about-me/neil-c4c.jpeg
 ---
 
-# Work
+# My credentials
 Step 5
 
 ## Code for Canada Fellowship
@@ -385,7 +347,7 @@ layout: image-right
 image: /images/slides/intro/about-me/neil-stats-02.jpeg
 ---
 
-# Work
+# My credentials
 Step 6
 
 ## Statistics Canada <span class="text-blue-400 text-xs">(current)</span>
@@ -411,16 +373,16 @@ Currently working on:
 ---
 title: Strengths
 level: 2
+layout: image-right
+image: /images/slides/intro/about-me/developer.jpg
 ---
 
-# What value can I bring 
+# What really matters
 And how does this benefit you?
 
-* Accessibility (a11y) 
-* Knowledge of the Public Service
-* Building sites that people want to use
-* Have you heard of "Bridging"
-* ...
+* This course is built on my 16 years developing in the Public Service 
+* I know how to leverage modern tools to build web sites and web apps that people actually want to use
+* You're going to get a solid look at how to do Accessibility (a11y) and side order of UX as well
 
 <!-- 
 
