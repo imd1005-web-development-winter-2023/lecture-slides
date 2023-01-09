@@ -39,6 +39,6 @@ src: ./pages/vue.md
 ---
 
 ---
-hide: false
+hide: true
 src: ./pages/_archive-slides.md
 ---
