@@ -149,19 +149,102 @@ level: 2
 # Grading
 You got this!
 
-||**Description**|**Due Date**|**Mark**|
+|**Evaluation**|**Description**|**Due Date**|**Mark**|
 |---|---|---|---|
 |Assignment 1|Research project - designing a small website|2023-01-27|15%|
 |Assignment 2|Build a few web pages using HTML5 and CSS3|2023-02-17|20%|
-|Assignment 3|Make a website interactive with JavaScript|2023-03-14|25%|
-|Group Project (Code)|Build an awesome thing 🚀|2023-04-04|30%|
+|Assignment 3|Make an interactive web app with JavaScript|2023-03-14|25%|
+|Group Project (Code)|Build something awesome 🚀|2023-04-04|30%|
 |Group Project (Presentation)|Show the thing 👫|2023-04-04|10%|
 
 
 ---
-title: How do we want to communicate
+title: How do we want to work
 level: 2
+layout: image-right
+image: /images/slides/intro/the-course/coffee-code.jpg
 ---
 
-# Talking to each other
-You got this!
+# How we work
+Laying out how we want to work as a team
+
+* Please come to class
+* Lecture slides will always be posted online
+* Brightspace for course updates, grades, and urgent announcements 
+* GitHub for assignments, challenges and exercises
+* Assignments are due for noon (11:59 AM)
+* Instant messaging:
+  * MS Teams (Carleton Accounts); or 
+  * MS Teams (Algonquin Accounts)
+
+<!-- 
+
+Slide notes: 
+
+* Do we want to use MS Teams with Algonquin or Carleton Accounts?
+* Or do we want to use something else like Slack?
+
+-->
+
+
+---
+title: Late Policy
+level: 2
+layout: image-right
+image: /images/slides/intro/the-course/negotiate.jpg
+---
+
+# Late Policy
+Negotiating a late policy
+
+* Managing delivering late in industry
+* You may want a flexible late policy 
+* I need course feedback
+* Let's make a deal
+
+<!-- 
+
+Slide notes: 
+
+* How to best manage being late in industry
+  * Advise as early as possible
+  * Determine the severity - how much else will break if you are late
+  * What's the liklihood of you actually being late 
+  * What are you doing to catch up 
+  * Can you even catch up? 
+  * How are you mitigating issues down stream 
+
+* The goal is to mimic industry as best as possible 
+* The offer 
+  * Five (5) feedback forms every two weeks 
+  * In exchange for every student obtaining a one week extention option on any of the assignments 
+  * Can not be used to delay the group project 
+  * Students must inform at least three days (36 hours) prior to the due date of the assignment
+
+-->
+
+
+---
+title: Let's chat
+level: 2
+layout: image-right
+image: /images/slides/intro/the-course/neil-01.jpeg
+---
+
+# Let's chat
+Here's how to connect
+
+* Email is best
+  * mispeln@algonquincollege.com
+* Tag me on GitHub
+    * [@neilmispelaar](https://github.com/neilmispelaar/)
+* Instant messager
+* My standard is to respond within 24 hours for emails (but you'll likely get a reply sooner than that)
+
+<!-- 
+
+Slide notes: 
+
+
+
+-->
