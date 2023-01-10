@@ -140,7 +140,7 @@ gantt
 
 Slide Notes: 
 
-* And then the pandemic happened!
+
 
 
 -->
