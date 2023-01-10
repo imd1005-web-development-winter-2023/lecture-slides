@@ -12,8 +12,7 @@ Something something something
 ---
 title: Who
 level: 2
-layout: image-right
-image: /images/slides/intro/about-me/neil-c4c.jpeg
+layout: center
 ---
 
-# Hi I'm Neil!
+# In class exercise
