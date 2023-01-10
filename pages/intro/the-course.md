@@ -204,7 +204,8 @@ Negotiating a late policy
 * Managing delivering late in industry
 * You may want a flexible late policy 
 * I need course feedback
-* Let's make a deal
+* Late policy for IMD1005
+  * Two assignments can be late, up to one calendar week, without penalty
 
 <!-- 
 
