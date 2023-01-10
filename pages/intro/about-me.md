@@ -29,8 +29,12 @@ Yes, that's me in my super cool C4C jacket
 Slide notes: 
 
 * I'm Neil Mispelaar
+* Pronouns he / him
+* I'm a seniors dev at Stats Can. I've been with the public service for too many years 
+* I've also done some private sector work and consulting, but my main calling is the GoC 
 * My last name is a bit of pain for people to say so you can just call me Neil 
 * That's a picture of me in my Code for Canada jacket - we'll talk more about that later
+* If you ever want to start a fight with developers online, just say what framework you use - people get very defensive - I don't get it - and I'm not trying to pick a fight with anyone - just being open and transparent 
 
 -->
 
@@ -380,8 +384,8 @@ image: /images/slides/intro/about-me/developer.jpg
 # What really matters
 And how does this benefit you?
 
-* This course is built on my 16 years developing in the Public Service 
-* I know how to leverage modern tools to build web sites and web apps that people actually want to use
+* This course is built on my experience developing in the Public Service 
+* You're going to learn how to leverage modern tools to build web sites and web apps that people actually want to use
 * You're going to get a solid look at how to do Accessibility (a11y) and side order of UX as well
 * Learn how to be always learning in this field
 
