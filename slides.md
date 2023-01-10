@@ -19,6 +19,10 @@ src: ./pages/internet.md
 ---
 
 ---
+src: ./pages/setup.md
+---
+
+---
 hide: true
 src: ./pages/html.md
 ---
