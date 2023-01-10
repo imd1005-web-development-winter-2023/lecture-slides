@@ -89,6 +89,10 @@ Learning how to learn new things
 
 Slide Notes: 
 
+* The only thing that's constant is change in this industry
+* Frameworks and tools that were popular 5 years ago are long gone
+* And new frameworks and tooling are coming up like weeds 
+* You have to be comfortable with change and with learning new things all the time in this industry
 
 -->
 
