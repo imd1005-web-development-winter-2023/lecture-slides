@@ -14,18 +14,21 @@ src: ./pages/_toc.md
 src: ./pages/intro.md
 ---
 
-
 ---
+hide: true
 src: ./pages/assignments.md
 ---
 
+---
+src: ./pages/setup.md
+---
 
 ---
 src: ./pages/internet.md
 ---
 
 ---
-src: ./pages/setup.md
+src: ./pages/design-thinking.md
 ---
 
 ---
