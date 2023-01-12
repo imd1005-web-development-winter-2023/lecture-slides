@@ -32,7 +32,7 @@ src: ./pages/design-thinking.md
 ---
 
 ---
-hide: true
+hide: false
 src: ./pages/html.md
 ---
 
