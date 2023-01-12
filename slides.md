@@ -14,6 +14,12 @@ src: ./pages/_toc.md
 src: ./pages/intro.md
 ---
 
+
+---
+src: ./pages/assignments.md
+---
+
+
 ---
 src: ./pages/internet.md
 ---
