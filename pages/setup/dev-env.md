@@ -12,7 +12,6 @@ level: 1
 title: What
 level: 2
 layout: center
-image: /images/slides/setup/dev-env/tools.png
 ---
 
 <img src="/images/slides/setup/dev-env/tools.png"/>
