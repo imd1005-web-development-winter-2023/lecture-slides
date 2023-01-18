@@ -1,12 +1,12 @@
 ---
 layout: intro
-title: Assignment 01
+title: Assignments
 level: 1
 ---
 
-# Assignment 01
+# Assignments
 
-🧐 Research project - designing a small website
+🧐 Course assignments 
 
 
 ---
@@ -15,7 +15,7 @@ level: 2
 ---
 
 # Assignment 01
-Research project - designing a small website
+TO DO 
 
 <dl class="text-sm">
     <dt class="font-bold uppercase">Due date:</dt>
@@ -29,6 +29,39 @@ Write a report that showcases your website design, describes your client, the us
 
 
 [Assignment 01 Details](https://github.com/imd1005-web-development-winter-2023/assignment-01/blob/main/README.md)
+
+<!--
+
+Slide notes: 
+
+-->
+
+
+---
+title: Who
+level: 2
+---
+
+# Assignment 02
+TO DO
+
+
+<!--
+
+Slide notes: 
+
+-->
+
+
+---
+title: Who
+level: 2
+---
+
+# Assignment 03
+TO DO
+
+
 
 <!--
 

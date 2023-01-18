@@ -19,6 +19,10 @@ src: ./pages/assignments.md
 ---
 
 ---
+src: ./pages/exercises.md
+---
+
+---
 src: ./pages/setup.md
 ---
 

@@ -1,3 +1,3 @@
 ---
-src: ./assignments/1.md
+src: ./assignments/list.md
 ---
