@@ -15,7 +15,6 @@ src: ./pages/intro.md
 ---
 
 ---
-hide: true
 src: ./pages/assignments.md
 ---
 
