@@ -1,6 +1,6 @@
 ---
 layout: intro
-title: HTML
+title: HTML semantic tags
 level: 1
 ---
 

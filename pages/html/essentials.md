@@ -1,6 +1,6 @@
 ---
 layout: intro
-title: HTML
+title: HTML essentials
 level: 1
 ---
 
@@ -14,7 +14,7 @@ level: 2
 ---
 
 # So what is HTML
-The basics
+The essentials
 
 HTML is a markup language we use to define the structure of the content of our web pages. 
 
@@ -47,16 +47,16 @@ level: 2
 ---
 
 # Some common terms to understand
-The basics
+The essentials
 
 ```html
 <p class="text-red">Buster is hungry</p>
 ```
 
 
-* open tag `<p>`— the part to an element that defines where this type of content starts
-* close tag `</p>`— the part of an element that defines where this type of content ends
-* attribute `class="text-red"`— a piece of metadata that isn’t usually visible in the browser but defines extra information about the element
+* `<p>` - opening tag — the part to an element that defines where this type of content starts
+* `</p>` - closing tag — the part of an element that defines where this type of content ends
+* `class="text-red"` - attribute — a piece of metadata that isn’t usually visible in the browser but defines extra information about the element
 * element — the combination of an open tag, the content, and a close tag
 
 <!-- 
@@ -72,7 +72,7 @@ level: 2
 ---
 
 # A note about nesting 
-The basics
+The essentials
 
 You can put elements inside other elements. This is referred to as nesting. We also sometimes refer to these elements as having a parent-child relationship. 
 
@@ -99,25 +99,54 @@ Slide notes:
 -->
 
 
+
+
+---
+title: Comments
+level: 2
+---
+
+# HTML Comments
+The essentials
+
+HTML comments are visible in the code of the page, but are not displayed in any way in the browser when the page is rendered. 
+
+An HTML comment begins with a \<!-- and then ends with a -->. 
+
+
+```html
+<!-- This is a single line comment that will  not be displayed in the browser -->
+
+<p>This is a paragraph <!-- This is an inline comment --> and nothing to see here</p>
+```
+
+<!-- 
+
+Slide notes: 
+
+Note: the code styling used currently makes the comment tags look silly 
+
+-->
+
 ---
 title: HTML Document
 level: 2
 ---
 
 # HTML Document
-The basics
+The essentials
 
 Here is what the code for an empty basic HTML document looks like: 
 
 ```html
 <!DOCTYPE html>
-<html lang="en-ca"> <!-- Sets the language to Canadian English -->
+<html lang="en-ca">
 <head>
   <meta charset="utf-8">
   <title>Title of the page</title>
 </head>
 <body>
-    <!-- This is a comment - it will not appear on your web page-->
+    <h1>Hello world</h1>
 </body>
 </html>
 ```
@@ -130,62 +159,26 @@ Slide notes:
 
 
 ---
-title: Headings
+title: HTML Document
 level: 2
 ---
 
-# Headings
-The elements
+# HTML Document (con't)
+The essentials
 
-Heading elements allow you to specify what content on your page is a heading or sub heading.
-
-```html
-<!-- 6 heading levels: -->
-<h1>Earth</h1>
-  <h2>North America</h2>
-    <h3>Canada</h3>
-      <h4>Ontario</h4>
-        <h5>Toronto</h5>
-        <h5>Ottawa</h5>
-          <h6>Nepean</h6>
-          <h6>Kanata</h6>
-    <h3>United States</h3>
-      <h4>California</h4>
-      <h4>New York</h4>
-  <h2>Africa</h2>
-    <h3>Egypt</h3>
-      <h4>Cairo</h4>
-        <h5>Cairo</h5>
-    <h3>Nigeria</h3>
-    <h3>Kenya</h3>
-```
-
-<!-- 
-
-Slide notes: 
-
-* Although HTML allows it, you should only have one <h1> on the page
-
--->
-
-
-
----
-title: Paragraphs
-level: 2
----
-
-# Paragraphs
-The elements
-
-Paragraph tag for, you guessed it, paragraphs of text.
+And here is a breakdown of every element: 
 
 ```html
-<p>Meatloaf andouille bacon alcatra short ribs. Salami meatball spare ribs,
-     shankle ribeye burgdoggen bacon pork. Beef andouille pig biltong.</p>
-
-<p>Drumstick andouille boudin, shankle jowl pork chop chuck picanha
-     short loin pork loin kevin chicken fatback.</p>
+<!DOCTYPE html>                     <!-- Tells the browser this is an HTML5 page -->
+<html lang="en-ca">                 <!-- Opns the HTML tag and Sets the language of the page -->
+<head>                              <!-- In the head we declare information about the page -->
+  <meta charset="utf-8">            <!-- Set's the character set to UTF-8 -->
+  <title>Title of the page</title>  <!-- In the head we declare information about the page -->
+</head>
+<body>                              <!-- The body section is where our page content goes -->
+    <h1>Hello world</h1>
+</body>
+</html>                             <!-- Closes the html tag -->
 ```
 
 <!-- 
@@ -193,155 +186,3 @@ Paragraph tag for, you guessed it, paragraphs of text.
 Slide notes: 
 
 -->
-
-
----
-title: Paragraphs
-level: 2
----
-
-# Lists
-The elements
-
-There are three types of lists that can be marked up. 
-
-`<ul>` Unordered lists - for when the order of the items in the list don't matter, such as a list of things to buy at the grocery store 
-
-```html
-<ul>
-    <li>Milk</li>
-    <li>Eggs</li>
-    <li>Chips</li>
-    <li>Bananas</li>
-</ul>
-```
-
-<!-- 
-
-Slide notes: 
-
--->
-
-
----
-title: Lists
-level: 2
----
-
-# Lists
-The elements
-
-There are three types of lists that can be marked up. 
-
-`<dl>` Ordered lists - for when the order of the items is important, like instructions in a recipe
-
-```html
-<ol>
-    <li>Add Milk</li>
-    <li>Beat the eggs and add to the milk</li>
-    <li>Smash the bananas and set aside</li>
-</ol>
-```
-
-<!-- 
-
-Slide notes: 
-
--->
-
-
----
-title: Paragraphs
-level: 2
----
-
-# Lists
-The elements
-
-There are three types of lists that can be marked up. 
-
-`<dl>` Description lists - for defining data and value pairs
-
-```html
-<dl>
-    <dt>Length</dt>
-    <dd>12 metres</dd>
-
-    <dt>Mass</dt>
-    <dd>5.4 metric tons</dd>
-</dl>
-```
-
-<!-- 
-
-Slide notes: 
-
--->
-
-
-
----
-title: Paragraphs
-level: 2
----
-
-# Links
-The elements
-
-Links are the key to the whole web! Here's how to make a link. 
-
-First identify the text that you want to make a link.
-
-```html
-<p>Buster likes to go the groomer name <a>Martin</a></p>
-```
-
-Then add an `href` attribute to the `<a>` tag. 
-
-```html
-<p>Buster likes to go the groomer name <a href="">Martin</a></p>
-```
-
-Finally, add the web address to the `href` attribute 
-
-```html
-<p>Buster likes to go the groomer name <a href="https://martin.cutshair.com">Martin</a></p>
-```
-
-<!-- 
-
-Slide notes: 
-
--->
-
-
----
-title: Images
-level: 2
----
-
-# Images
-The elements
-
-Images in websites are not embedded in the website, but linked to by the HTML document.
-
-Images need two attributes to specify extra details about the image: the location of the image and the alternative content.
-
-```html
-<img src="buster.jpg" alt="Photo of Buster">
-```
-
-<!-- 
-
-Slide notes: 
-
--->
-
----
-layout: center
-title: Exercise 01
-level: 2
----
-
-[Exercise 01](https://github.com/imd1005-web-development-winter-2023/exercise-html-01/)
-
