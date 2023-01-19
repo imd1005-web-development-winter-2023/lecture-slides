@@ -23,7 +23,7 @@ level: 2
 
 [Exercise 03 Details](https://github.com/imd1005-web-development-winter-2023/exercise-03)
 
-
+[Exercise 04 Details](https://github.com/imd1005-web-development-winter-2023/exercise-04)
 
 <!--
 
