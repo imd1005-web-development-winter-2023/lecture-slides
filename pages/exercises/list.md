@@ -19,6 +19,12 @@ level: 2
 
 [Exercise 01 Details](https://github.com/imd1005-web-development-winter-2023/exercise-html-01)
 
+[Exercise 02 Details](https://github.com/imd1005-web-development-winter-2023/exercise-02)
+
+[Exercise 03 Details](https://github.com/imd1005-web-development-winter-2023/exercise-03)
+
+
+
 <!--
 
 Slide notes: 
