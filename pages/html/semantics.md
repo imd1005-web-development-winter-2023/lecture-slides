@@ -6,7 +6,35 @@ level: 1
 
 # HTML Semantics
 
-Semantic elements 
+Semantic - What purpose or role does this HTML element have 
+
+
+---
+title: Semantic elements
+level: 2
+---
+
+<img class="h-full" src="/images/slides/html/semantics/semantic-no-tags.png" alt="" />
+
+<!-- 
+
+Slide notes: 
+
+-->
+
+
+---
+title: Semantic elements
+level: 2
+---
+
+<img class="h-full" src="/images/slides/html/semantics/semantic-tags.png" alt="" />
+
+<!-- 
+
+Slide notes: 
+
+-->
 
 ---
 title: Semantic elements
@@ -14,7 +42,7 @@ level: 2
 ---
 
 # Semantic elements
-The elements
+The elements that think they are cooler
 
 * `<header>` — for more important information, like the masthead of the website, where the name and logo and navigation are
 * `<nav>` — navigation, defining the navigation of the website
@@ -24,38 +52,162 @@ The elements
 * `<section>` — the generic section element
 
 
+
 ---
 title: Semantic elements
 level: 2
 ---
 
-# Code sample
+# HTML page sample
 
 ```html
-<!-- The website masthead with the navigation -->
-<header>
-  <h2>The Dogs Website</h2>
-  <!-- The website’s primary navigation -->
-  <nav>...</nav>
-</header>
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Title of the page</title>
+</head>
+<body>
+  <header>...</header>
 
-<!-- The <main> content of the website: what your user came to see -->
-<main>
-  <h1>All of the dogs</h1>
-  ⋮
-</main>
+  <!-- The <main> content of the website: what your user came to see -->
+  <main>
+    <h1>All of the dogs</h1>
+    ...
+  </main>
 
-<!-- Secondary information that’s helpful but not necessary for understanding -->
-<aside>
-  <h2>Maybe you'd like to donate to the humane society</h2>
-  ⋮
-</aside>
+  <aside>...</aside>
 
-<!-- Website footer, copyright information, terms, etc. -->
-<footer>
-  <p>© More Dogs</p>
-</footer>
+  <footer>...</footer>
+</body>
+</html>
 ```
 
 
+---
+title: Semantic elements
+level: 2
+---
 
+# Simplified header / nav bar example
+
+```html
+...
+<body>
+  <header>
+    <h2>Site title</h2> <!-- Your document sections must have a header -->
+
+    <img src="/images/logo.png" alt="Company Logo" />
+
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+    ...
+</body>
+</html>
+```
+
+
+---
+title: Semantic elements
+level: 2
+---
+
+# Simplified header / nav bar example
+
+* Have an `<h2>` heading in your `<heading>` section to give your document proper heading structure 
+* Use the `<nav>` element with an unordered list for any site navigation
+* Do not put an `<h1>` in any document section other than `<main>`
+
+
+
+---
+title: Semantic elements
+level: 2
+---
+
+# Main content area
+
+```html
+...
+<body>
+  ...
+  <main>
+    <h1>Page heading</h1> <!-- Your document sections must have a header -->
+
+    <section>
+      <h2>Chapter one</h2>
+      ...
+
+        <section>
+          <h3>Sub chapter one alpha</h3>
+          ...
+        </section>
+
+    </section>
+    ...
+  </main>
+    ...
+</body>
+</html>
+```
+
+
+---
+title: Semantic elements
+level: 2
+---
+
+# Main content area
+
+* Have an `<h1>` heading in your `<main>` content area to give your document proper heading structure 
+* Use the `<section>` or `<article>` elements to further organise the content 
+* `<section>` elements should be wrapped around every heading (except for the `<h1>`)
+
+
+---
+title: Semantic elements
+level: 2
+---
+
+# Simplified footer with navigation example
+
+```html
+...
+<body>
+  ...
+  <footer>
+    <h2>Site footer information</h2> <!-- Your document sections must have a header -->
+
+    <img src="/images/logo.png" alt="Company Logo" />
+
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+  </footer>
+</body>
+</html>
+```
+
+
+---
+title: Semantic elements
+level: 2
+---
+
+# Simplified footer with navigation example
+
+* Have an `<h2>` heading in your `<footer>` section to give your document proper heading structure 
+* Use the `<nav>` element with an unordered list for any site navigation within the footer
+* Do not put an `<h1>` in any document section other than `<main>`

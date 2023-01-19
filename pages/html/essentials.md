@@ -170,8 +170,8 @@ And here is a breakdown of every element:
 
 ```html
 <!DOCTYPE html>                     <!-- Tells the browser this is an HTML5 page -->
-<html lang="en-ca">                 <!-- Opns the HTML tag and Sets the language of the page -->
-<head>                              <!-- In the head we declare information about the page -->
+<html lang="en-ca">                 <!-- Opens the HTML tag and Sets the language of the page -->
+<head>                              <!-- Container for metadata we declare information about the page -->
   <meta charset="utf-8">            <!-- Set's the character set to UTF-8 -->
   <title>Title of the page</title>  <!-- In the head we declare information about the page -->
 </head>
