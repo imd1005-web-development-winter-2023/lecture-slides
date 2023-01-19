@@ -1,6 +1,6 @@
 ---
 layout: intro
-title: The Ice Breaker
+title: The ice breaker
 level: 1
 ---
 
