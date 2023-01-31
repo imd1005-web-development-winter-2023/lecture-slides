@@ -35,12 +35,10 @@ src: ./pages/design-thinking.md
 ---
 
 ---
-hide: false
 src: ./pages/html.md
 ---
 
 ---
-hide: true
 src: ./pages/css.md
 ---
 
