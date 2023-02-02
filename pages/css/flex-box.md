@@ -1,6 +1,6 @@
 ---
 layout: intro
-title: CSS Flexbox 
+title: CSS flexbox 
 level: 1
 ---
 

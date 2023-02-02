@@ -1,6 +1,6 @@
 ---
 layout: intro
-title: CSS Box Model
+title: CSS box model
 level: 1
 ---
 

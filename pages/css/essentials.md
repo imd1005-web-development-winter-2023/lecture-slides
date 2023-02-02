@@ -1,6 +1,6 @@
 ---
 layout: intro
-title: CSS Essentials
+title: CSS essentials
 level: 1
 ---
 
