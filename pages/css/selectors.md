@@ -30,7 +30,7 @@ The following slides go through all of the different types of selectors availabl
 
 Slide notes: 
 
-Photo by BERK OZDEMIR: https://www.pexels.com/photo/people-reading-books-in-library-3779187/
+Photo by DS stories: https://www.pexels.com/photo/pile-of-colorful-boxes-7679762/
 
 -->
 
