@@ -423,7 +423,6 @@ Guides and cheatsheets
 
 * [Combining and Chaining CSS Selectors - Prof3ssorSt3v3](https://www.youtube.com/watch?v=6VGKD7p4p-w&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=4)
 * [C in CSS Means Cascading - Prof3ssorSt3v3](https://www.youtube.com/watch?v=PigxOyVDIQg&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=2)
-* [::before and ::after Pseudo-Elements - Prof3ssorSt3v3](https://www.youtube.com/watch?v=9chejj2-x8s&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=53)
 * [Nth Child - Prof3ssorSt3v3](https://www.youtube.com/watch?v=4NsJtaaC0qI&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=15)
 * [Psuedo classes - Prof3ssorSt3v3](https://www.youtube.com/watch?v=0VDx1570X3U&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe&index=14)
 * [Selectors - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
