@@ -1253,6 +1253,70 @@ Slide notes:
 
 
 ---
+title: Flexbox
+level: 2
+---
+
+# Gap
+We can use the `gap` property to add a gap between the flex items in the direction of the main axis.
+
+```css
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 60px;
+}
+```
+
+<div class="border-dotted border-4 border-gray w-full">
+<ul class="flex-demo">
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+</ul>
+</div>
+
+<style>
+ul.flex-demo {
+    padding: 0px !important;
+    margin: 10px !important;
+    list-style: none;
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+ul.flex-demo li {
+    margin: 0px;
+    padding: 10px;
+   
+}
+
+ul.flex-demo li:nth-child(1) { background-color: #f72585; }
+
+ul.flex-demo li:nth-child(1) { background-color: #f72585; }
+ul.flex-demo li:nth-child(2) { background-color: #b5179e; }
+ul.flex-demo li:nth-child(3) { background-color: #7209b7; }
+
+
+</style>
+
+
+<!-- 
+
+Slide notes: 
+
+
+-->
+
+
+---
 title: Flexbox Resournces
 level: 2
 layout: image-right
