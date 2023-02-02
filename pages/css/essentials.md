@@ -320,6 +320,7 @@ image: /images/slides/css/essentials/css-books.jpg
 # CSS resources
 Guides and cheatsheets
 
+* [CSS values and units - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 * [CSS - Odin project](https://www.theodinproject.com/lessons/foundations-css-foundations)
 * [CSS - Code academy](https://www.codecademy.com/resources/docs/css)
 * [Introduction to CSS - Prof3ssorSt3v3](https://www.youtube.com/watch?v=KFKScNHa-8M&list=PLyuRouwmQCjl4wTSNbb8RTKZuyMhoIxBe)
