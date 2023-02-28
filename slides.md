@@ -43,7 +43,6 @@ src: ./pages/css.md
 ---
 
 ---
-hide: true
 src: ./pages/javascript.md
 ---
 

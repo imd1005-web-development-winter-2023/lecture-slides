@@ -1,3 +1,3 @@
 ---
-src: ./javascript/placeholder.md
+src: ./javascript/basics.md
 ---
