@@ -105,7 +105,6 @@ for (let i = 0; i < 5; i++) {
 ```
 
 
-
 ---
 title: JavaScript
 level: 2
