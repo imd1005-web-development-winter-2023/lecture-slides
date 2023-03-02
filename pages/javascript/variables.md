@@ -16,19 +16,16 @@ Variables
 
 There are three ways to declare a variable `var`, `let`, and `const`.
 
-```html
-<script>
+```js
+/* NEVER USE VAR */ 
+var myFirstVariable = "Hello";
 
-  /* NEVER USE VAR */ 
-  var myFirstVariable = "Hello";
+/* Then we have let */ 
+let mySecondVariable = "World";
 
-   /* Then we have let */ 
-  let mySecondVariable = "World";
-  
-  /* And finally we have const */ 
-  const myConstVariable = true;
+/* And finally we have const - for variables that need to be constant */ 
+const myConstVariable = true;
 
-</script>
 ```
 
 
@@ -61,15 +58,16 @@ Variables
 
 String type is used to store textual data, or a sequence of characters.
 
-```html
-<script>
+```js
+  // This is a string 
+  // Note the quotation marks around the value
+  let messageOne = "Hello World";
 
-  // this is a string 
-  // note the quotation marks around the value
-  let message = "Hello World";
+  // Single quotes also work as well
+  let messageTwo = 'Hello World';
 
-</script>
 ```
+
 
 
 ---
@@ -80,17 +78,39 @@ level: 2
 # Number
 JavaScript variables
 
-This is the largest numerical value that can be stored in  a `number` 9007199254740991. 
+As the name imples, you can store numeric values in a number. 
+
+```js
+// this is a number
+let numberOfElephants = 33;
+
+// The console will display 33
+console.log(numberOfElephants);
+
+```
+
+---
+title: JavaScript
+level: 2
+---
+
+# Number
+JavaScript variables
+
+This is the largest numerical value that can be stored safely in  a `number` 9007199254740991.
 
 If you think your app will need to store a bigger number, than you should use a `BigInt`.
 
-```html
-<script>
+```js
+// this is a number
+let numberOfElephants = 9007199254740991;
 
-  // this is a number
-  let numberOfElephants = 9007199254740991;
+// The console will display 9007199254740991
+console.log(numberOfElephants);
 
-</script>
+// This value comes from the number object 
+Number.MAX_SAFE_INTEGER; // 9007199254740991
+
 ```
 
 
@@ -106,13 +126,10 @@ This is the largest numerical value that can be stored in  a `number` 9007199254
 
 If you think your app will need to store a bigger number, than you should use a `BigInt`.
 
-```html
-<script>
-
+```js
   // this is how we use a BigInt
   let numberOfElephants = BigInt(9007199254740992);
 
-</script>
 ```
 
 
@@ -125,15 +142,18 @@ level: 2
 # Boolean
 Variables
 
-Booleans can be set to `true` or `false`. 
+Booleans can be set to `true` or `false`.
 
-```html
-<script>
+While you can name your variables almost anything you want (there are some rules that JS applies), when it comes to `Boolean` values, you should try to name your variables with an `is` prefix. 
 
+For examples, `isEnabled`, `isPaidFor`, `isUserLoggedIn`. Also, avoid negative names, such as `isNotActive` or `isNotDone` as this can cause major confusion when reading code. 
+
+```js
   // this is a boolean
   let isElephantPresent = false;
 
-</script>
+  // The console will display false
+  console.log(isElephantPresent);
 ```
 
 
@@ -150,13 +170,12 @@ This is an assigned value that means nothing, nada.
 
 We generally use this value to setup a variable and flag that nothing is set in the variable yet. 
 
-```html
-<script>
-
+```js
   // this is a null value
   let numElephants = null;
 
-</script>
+  // The console will display null
+  console.log(numElephants);
 ```
 
 
@@ -169,17 +188,14 @@ level: 2
 # Undefined
 Variables
 
-This is state of a variable before a value is set to that variable
+The value `undefined` is set on a variable before an actual value is provided to the variable.
 
-```html
-<script>
-
+```js
   // Whoops - declared a variable but didn't set it to anything
   let numElephants;
 
-  console.log(numElephants); // this will return undefined 
-
-</script>
+  // The console will display undefined
+  console.log(numElephants); 
 ```
 
 
@@ -189,77 +205,75 @@ title: JavaScript
 level: 2
 ---
 
-# Objects
+# Objects literals
 Variables
 
-Objects in JavaScript are a basic building block and almost everything in JavaScript is an object.
+Objects literals in JavaScript are a collection of name and value pairs. 
 
-We generally use objects to collect a bunch of data and keep it together. 
+The following is a really simple example of an object literal, though they can get very complex. 
 
-The following is a really simple example of an object, though they can get very complex. 
-
-```html
-<script>
-
-  // Declare an empty object
+```js
+  // Declare an object literal
   const elephant = {
     name: "Jimbo",
     age: 200,
     isMarried: false,
   };
 
-  // Access a property using the dot notation
+  // Access the whole object literal 
+  console.log(elephant)
+
+  // Access a property using the dot notation and something called chaining 
   console.log(elephant.name)
 
-</script>
+  // Access a property using the dot notation and something called chaining 
+  console.log(elephant.age)
+
 ```
 
 
 ---
 title: JavaScript
 level: 2
+class: "border-l-36 border-green-600"
 ---
 
 # Now you try! 
 Variables
 
-* In the page you had open before 
-* Type this code in to your page and check out the console messages
+* Open your JavaScript file
+* Type this code in and check out the browser's console message
 
-```html
-<script>
-
-  // Declare an age variable 
+```js
+  // Declare an wage variable 
   let wage = 33; 
 
   // Declare another value 
   let bonus = 22;
 
-  // Manipulate the age by adding 10 to it 
+  // Manipulate the wage by adding the bonus to it 
   wage = wage + bonus; 
 
   // Console log the contents of the variable 
   console.log("The updated wage is set to", wage);
 
-</script>
 ```
 
 
 ---
 title: JavaScript
 level: 2
+class: "border-l-36 border-green-600"
 ---
 
 # Now you try! 
 Variables
 
-* In the page you had open before 
-* Let's try adding two strings together
-* Type this code in to your page and check out the console messages
+* Open your JavaScript file
+* Type this code in and check out the browser's console message
+* Figure out how to add a space in your console log to seperate the two messages
 
-```html
-<script>
-
+```js
   // Declare the start of message
   let beginMessage = "Hello how are"; 
 
@@ -269,28 +283,26 @@ Variables
   // Add both of the strings and display using the console log
   console.log(beginMessage + endMessage);
 
-  // How would you add a space to seperate the two messages?
+  // Add a space to seperate the two messages?
 
-</script>
 ```
 
 
 ---
 title: JavaScript
 level: 2
+class: "border-l-36 border-green-600"
 ---
 
 # Now you try! 
 Variables
 
-* In the page you had open before 
+* Open your JavaScript file
+* Type this code in 
 * Define a `const` called `boilingPoint` and set it to `100`
-* 
-* Type this code in to your page and check out the console messages
+* Run this code in your browser and check out the browser's console message
 
-```html
-<script>
-
+```js
   // Declare a const and set it to 100
 
   // Try to assign the const a new value
@@ -299,34 +311,31 @@ Variables
   // Add both of the strings and display using the console log
   console.log("The boiling point is:" , boilingPoint);
 
-</script>
 ```
 
 
 ---
 title: JavaScript
 level: 2
+class: "border-l-36 border-green-600"
 ---
 
 # Now you try! 
 Variables
 
 * Okay this one is sneaky
-* In the page you had open before 
-* Define a `string` called `quote`
+* Open your JavaScript file
+* Define a constant variable called `quote` and put a `string` in the variable 
 * Set the value of the string to be `You had me at "Hello"` (note the included double quotation marks)
 * Console log the `quote` variable
 
-```html
-<script>
-
+```js
   // Declare a const and set it to - You had me at "Hello"
   const quote = ; // ADD CODE HERE
  
   // Add then display using the console log
   console.log(quote);
 
-</script>
 ```
 
 
@@ -334,54 +343,59 @@ Variables
 ---
 title: JavaScript
 level: 2
+class: "border-l-36 border-green-600"
 ---
 
 # Now you try! 
 Variables
-
-* Let's practice using a simple object
-* Create an object named `product` 
-* Add the following properties to the object 
+ 
+* Create an object literal named `product` and add the following properties 
   * `price` set to `4.99`
   * `name` set to `Nacho Cheese Doritos`
   * `isInStock` set to `true`
 * Console log the `product` variable
 
-```html
-<script>
+```js
 
-  // Declare a const and set it to - You had me at "Hello"
-  const product = {}; // ADD CODE HERE
+  // Declare a const called product
+  // Set the following properties 
+  //   price to 4.99 (Number)
+  //   name to Nacho Cheese Doritos (String)
+  //   isInStock to true (Boolean)
+  const product = {}; 
  
   // Add then display using the console log
   console.log(product);
 
-</script>
 ```
 
 
 ---
 title: JavaScript
 level: 2
+
 ---
 
 # Template literals 
+Variables
 
-Backticks can help us do awesome things with strings
+Template literals (also known as template strings) are enclosed by backticks [ ` ] and not quotation marks.
 
-```html
-<script>
+Inside template literals you are able to execute expressions by using the `${...}` notation.
 
+```js
   // Declare a const called price and set it
   const price = 4.99; 
 
   // Declare a const called quantity and set it
   const quantity = 7 
  
-  // Add then display using the console log
-  console.log(`You can buy ${quantity} elephants for ${price * quantity}`);
+  // Console log will display - You can buy 7 elephants for $34.93
+  console.log(`You can buy ${quantity} elephants for $${price * quantity}`);
 
-</script>
+  // Note the two dollar signs - the first is just the regular dollar sign
+  //  and the second one activates the expression within the curly braces
+
 ```
 
 
@@ -389,6 +403,7 @@ Backticks can help us do awesome things with strings
 ---
 title: JavaScript
 level: 2
+class: "border-l-36 border-green-600"
 ---
 
 # Now you try! 
@@ -399,9 +414,7 @@ Variables
 * Using template literals and the console log, display the following by referencing the three variables 
 * `My phone number is (613) 825-6849`
 
-```html
-<script>
-
+```js
   // Declare some attributes 
   let areaCode = 613;
   let telephonePrefix = 825;
@@ -411,6 +424,5 @@ Variables
   // to display: "My phone number is (613) 825-6849"
   console.log(`ADD_YOUR_CODE_HERE`);
 
-</script>
 ```
 
