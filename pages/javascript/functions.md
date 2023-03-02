@@ -4,7 +4,115 @@ layout: intro
 ---
 
 # JavaScript Functions
-Defining functions
+The fundamental building blocks of JavaScript
+
+
+---
+title: JavaScript
+level: 2
+layout: center
+---
+
+Keep things Dry
+
+* **D**o not
+* **R**epeat
+* **Y**ourself
+
+
+
+---
+title: JavaScript
+level: 2
+---
+
+# Let's say we had an array of ages
+Functions
+
+* We have an array of ages and want to know if they are allowed to consume alcohol in Las Vegas
+* If Las Vegas every changes the minimum age, or if we change our array, this code will be super annoying to maintain
+
+```js
+let listOfAges = [12, 34, 28, 21, 44, 90, 18, 20, 25];
+
+if ( listOfAges[0] >= 21) {
+  console.log('Age at Index 0 is of age')
+}
+
+if ( listOfAges[1] >= 21) {
+  console.log('Age at Index 1 is of age')
+}
+
+if ( listOfAges[2] >= 21) {
+  console.log('Age at Index 2 is of age')
+}
+
+...
+
+```
+
+
+
+---
+title: JavaScript
+level: 2
+---
+
+# Let's add a function to do the age check
+Functions
+
+* We can simplify this code by creating and adding a function to do our check
+
+```js
+let listOfAges = [12, 34, 28, 21, 44, 90, 18, 20, 25];
+
+function canConsumeAlcoholInVegas(age) {
+  if (age >= 21) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+if (canConsumeAlcoholInVegas(listOfAges[0])) {
+  console.log('Age at Index 0 is of age')
+}
+
+if (canConsumeAlcoholInVegas(listOfAges[1])) {
+  console.log('Age at Index 1 is of age')
+}
+...
+```
+
+
+---
+title: JavaScript
+level: 2
+---
+
+# Finally, we can make this even better for loop
+Functions
+
+* We can further simplify this code by adding a for loop
+
+```js
+let listOfAges = [12, 34, 28, 21, 44, 90, 18, 20, 25];
+
+function canConsumeAlcoholInVegas(age) {
+  if (age >= 21) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+for (let i = 0; i <= listOfAges.length; i++) {
+  if (canConsumeAlcoholInVegas(listOfAges[i])) {
+    console.log(`Age at Index ${i} is of age`);
+  }
+}
+```
+
 
 
 ---
@@ -22,21 +130,17 @@ Functions
 
 ```js
 
-function canVisitVegas(age) {
-    let allowed = null; 
-    
+function canConsumeAlcoholInVegas(age) {
     if (age >= 21) {
-        allowed = true;
+        return = true;
     } else {
-        allowed = false; 
+        return = false; 
     }
-    return allowed
 }
 
-console.log(canVisitVegas(25)); // true
+console.log(canConsumeAlcoholInVegas(25)); // true
 
 ```
-
 
 ---
 title: JavaScript
