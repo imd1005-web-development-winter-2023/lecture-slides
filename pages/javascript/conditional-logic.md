@@ -200,6 +200,35 @@ if (stateOrProvince === "California") {
 ```
 
 
+---
+title: JavaScript
+level: 2
+class: "border-l-36 border-green-600"
+---
+
+# Now you try! 
+Arrays
+
+* Open your JavaScript file 
+* Write conditional logic for a rating system that console logs a message based on the users rating
+
+```js
+const rating = 4;
+
+/* If rating is 5 */ 
+console.log("Excellent job");
+/* If rating is 4 */ 
+console.log("That's really wonderful");
+/* If rating is 3 */ 
+console.log("Great job");
+/* If rating is 2 */ 
+console.log("Awh no, that was a good try");
+/* If rating is 1 */ 
+console.log("Ummm, so this is awkward");
+
+```
+
+
 
 ---
 title: JavaScript
