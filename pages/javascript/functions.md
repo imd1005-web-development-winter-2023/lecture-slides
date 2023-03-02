@@ -120,7 +120,7 @@ title: JavaScript
 level: 2
 ---
 
-# We often want to repeat procedures
+# Anatomy of a function
 Functions
 
 * Functions consist of three items:
@@ -155,7 +155,7 @@ Functions
 
 ```js
 
-function canVisitVegas(age) {
+function canConsumeAlcoholInVegas(age) {
   let allowed = null; 
     
   if (age >= 21) {
@@ -184,10 +184,9 @@ Functions
 * In the example below, 
 
 ```js
-
 let age = 21;
 
-function canVisitVegas() {
+function canConsumeAlcoholInVegas() {
     let allowed = null;
     
     if (age >= 21) {
@@ -199,7 +198,7 @@ function canVisitVegas() {
     return allowed
 }
 
-console.log(canVisitVegas()); // true!
+console.log(canConsumeAlcoholInVegas()); // true!
 
 ```
 
@@ -221,16 +220,14 @@ Basics
 ```js
 let age = 21;
 
-function canVisitVegas() {
+function canConsumeAlcoholInVegas() {
   let age = 16
-  let allowed = null;
 
   if (age >= 21) {
-    allowed = true;
+    return true;
   } else {
-    allowed = false; 
+    return false;
   }
-  return allowed
 }
 
 console.log(canVisitVegas()); // ????
@@ -250,3 +247,130 @@ Functions
 * This means that they are visible from any function, which is considered bad practice 
 * Now that you know this, a much better practice is to put all of your logic and variables inside a function 
 
+
+
+---
+title: JavaScript
+level: 2
+---
+
+# Function parameters 
+Functions
+
+* We can pass in any number of parameters to the function
+* Order of parameters is extremely important when calling the function
+
+```js
+function displayTodoItem(title, done) {
+    console.log(`ToDo Title: ${title}, Todo Done Status: ${done}`)
+}
+
+displayTodoItem("Buy Groceries", false);
+displayTodoItem("Order Uber Eats", true);
+displayTodoItem("Call Mom", false);
+displayTodoItem("File taxes", false);
+
+```
+
+
+
+---
+title: JavaScript
+level: 2
+---
+
+# Setting default parameters 
+Functions
+
+
+* We can set the `done` parameter to have a default value of `false` so if someone calls the function with only one parameter we can set `done` to `false`
+
+```js
+function displayTodoItem(title, done = false) {
+  console.log(`ToDo Title: ${title}, Todo Done Status: ${done}`)
+}
+
+displayTodoItem("Buy Groceries");
+displayTodoItem("Order Uber Eats");
+displayTodoItem("Call Mom");
+displayTodoItem("File taxes");
+
+```
+
+
+---
+title: JavaScript
+level: 2
+---
+
+# Checking parameters
+Functions
+
+
+* Here is another way to check incoming parameters
+
+```js
+function displayTodoItem(title, done) {
+  // Check the value of done before using it in the console.log
+  if (done === undefined) {
+    done = false;
+  }
+  console.log(`ToDo Title: ${title}, Todo Done Status: ${done}`)
+}
+
+displayTodoItem("Buy Groceries");
+displayTodoItem("Order Uber Eats");
+displayTodoItem("Call Mom");
+displayTodoItem("File taxes");
+
+```
+
+
+
+
+---
+title: JavaScript
+level: 2
+---
+
+# Returning values
+Functions
+
+
+* A function can return a value back into the calling code as the result.
+
+```js
+function addNumbers(a, b) {
+  return (a+b);
+}
+
+let result = addNumbers(300,400);
+
+console.log(result);
+```
+
+
+---
+title: JavaScript
+level: 2
+class: "border-l-36 border-green-600"
+---
+
+# Now you try!
+Functions
+
+* Add code to the `screamMessage` below which loops for the amount of times as defined by count 
+* For each loop, make the `message` that was provided completely uppercase 
+* So your code below would result in "I DON'T LIKE HOTPINK" (x3) and 
+"I DON'T WANT TO FILE MY TAXES" (x5)
+* Hint: string methods toUpperCase is your friend 
+
+```js
+function screamMessage(count, message) {
+    // Add your logic here
+}
+
+console.log(screamMessage(3,"I don't like HotPink"));
+console.log(screamMessage(5,"I don't want to file my taxes"));
+
+```
