@@ -21,3 +21,7 @@ src: ./javascript/loops.md
 ---
 src: ./javascript/functions.md
 ---
+
+---
+src: ./javascript/dom.md
+---
