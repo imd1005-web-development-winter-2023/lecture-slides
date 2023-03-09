@@ -25,3 +25,7 @@ src: ./javascript/functions.md
 ---
 src: ./javascript/dom.md
 ---
+
+---
+src: ./javascript/events.md
+---
