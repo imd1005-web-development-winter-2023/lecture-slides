@@ -29,3 +29,11 @@ src: ./javascript/dom.md
 ---
 src: ./javascript/events.md
 ---
+
+---
+src: ./javascript/promises.md
+---
+
+---
+src: ./javascript/fetch.md
+---
