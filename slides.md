@@ -47,7 +47,6 @@ src: ./pages/javascript.md
 ---
 
 ---
-hide: true
 src: ./pages/vue.md
 ---
 

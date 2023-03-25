@@ -1,3 +1,3 @@
 ---
-src: ./vue/placeholder.md
+src: ./vue/intro.md
 ---
