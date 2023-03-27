@@ -607,6 +607,118 @@ level: 2
 # Computed property
 Vue.JS essentials
 
+In some cases, we may want to derive a value for some text before we put it on our page. 
+
+For example, if all of our To do list items were completed, somewhere in our app we may want to display "Done", or "Not done" if they weren't completed.
+
+We could do this using a computed property. 
+
+More information about [Computed properties](https://vuejs.org/guide/essentials/computed.html)
+
+```html 
+<!-- Check if there are todos in the list -->
+<p>{{ todos.length > 0 ? "Not done yet" : "Done" }}</p>
+```
+
+
+<!-- 
+
+    Slide notes: 
+
+-->
+
+
+---
+title: Vue.JS essentials
+level: 2
+---
+
+# Computed property
+Vue.JS essentials
+
+We can move that logic check into a computed property
+
+```js
+setup() {
+    // create a reactive variable using ref
+    const todos = ref([
+        { id: 0, text: "Buy Milk" , done: false },
+        { id: 1, text: "Pick up dry cleaning" , done: false },
+        { id: 2, text: "Put air in tires" , done: false },
+    ])
+
+    const doneNotDoneMessage = computed(() => {
+        return todos.length > 0 ? "Not done yet" : "Done"
+    })
+
+    // expose to the template
+    return {
+        todos,
+        doneNotDoneMessage,
+    };
+},
+```
+
+<!-- 
+
+    Slide notes: 
+
+-->
+
+
+---
+title: Vue.JS essentials
+level: 2
+---
+
+# Computed property
+Vue.JS essentials
+
+And then update our template to use the new computed property `doneNotDoneMessage`
+
+```html
+<!-- Check if there are todos in the list using the computed property -->
+<p>{{ doneNotDoneMessage }}</p>
+```
+
+<!-- 
+
+    Slide notes: 
+
+-->
+
+
+---
+title: Vue.JS essentials
+level: 2
+---
+
+# Watchers
+Vue.JS essentials
+
+Watchers in Vue allow us to watch a reactive variable and then take some action when the value of the variable changes. 
+
+[Guide - Watchers](https://vuejs.org/guide/essentials/watchers.html)
+
+
+```js
+// Get an instance of the createApp Vue object, along with ref and watch
+const { createApp, ref, watch } = Vue;
+
+const app = createApp({
+    setup() {
+        // create a reactive variable using ref
+        const count = ref(0)
+
+        watch(count, (newCount) => {
+            // yes, console.log() is a side effect
+            console.log(`new count is: ${newCount}`)
+        })
+        ...
+    },
+});
+```
+
 <!-- 
 
     Slide notes: 
@@ -623,6 +735,11 @@ level: 2
 # Watchers
 Vue.JS essentials
 
+In the previous example, when `count` is updated anywhere in our app, our `watch` function will run, and the inline function that has the `console.log` will execute. 
+
+When declaring watch functions, the first argument is the reactive variable that we want to watch changes for, and the second argument is the function to execute when a change occurs. 
+
+
 <!-- 
 
     Slide notes: 
@@ -630,6 +747,74 @@ Vue.JS essentials
 -->
 
 
+
+---
+title: Vue.JS essentials
+level: 2
+---
+
+# Watchers
+Vue.JS essentials
+
+Do note that you can't watch a property of a reactive object like this:
+
+
+```js
+setup() {
+    // create a reactive variable using reactive object
+    const obj = reactive(
+        { count: 0 }
+    );
+
+    // this won't work because we are passing a number to watch()
+    watch(obj.count, (count) => {
+        console.log(`count is: ${count}`)
+    })
+    ...
+}
+```
+
+<!-- 
+
+    Slide notes: 
+
+-->
+
+
+---
+title: Vue.JS essentials
+level: 2
+---
+
+# Watchers
+Vue.JS essentials
+
+To watch a nested reactive object we would use the following code:
+
+
+```js
+setup() {
+    // create a reactive variable using reactive object
+    const obj = reactive(
+        { count: 0 }
+    );
+
+   // instead, use a getter:
+    watch(
+        () => obj.count,
+        (count) => {
+            console.log(`count is: ${count}`)
+        }
+    );
+    ...
+}
+```
+
+<!-- 
+
+    Slide notes: 
+
+-->
 
 
 ---
